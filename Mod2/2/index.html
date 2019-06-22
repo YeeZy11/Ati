@@ -35,6 +35,14 @@
             EspacoE.style.borderStyle = "solid";
             EspacoE.style.borderBottomWidth = "0.5px";
             Espaco.appendChild(EspacoE);
+
+            EspacoE.onmouseover = function () {
+                EspacoE.style.backgroundColor = getRandomColor();
+            }
+            Espaco.appendChild(EspacoE);
+        };
+
+             
     </script>
 </body>
 
