@@ -14,7 +14,11 @@
         var lista = document.querySelector("ul");
 
         for (nome of nomes) {
-            
+            var liE = document.createElement("li");
+            var texto = document.createTextNode(nome);
+
+            liE.appendChild(texto);
+            lista.appendChild(liE);
         }
 
     </script>
